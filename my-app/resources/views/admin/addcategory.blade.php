@@ -5,7 +5,7 @@ addcategories-myecom
 @section('content')
 <div class="container-xxl flex-grow-1 container-p-y">
     <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Pages/</span>Add Category</h4>
-<div class="col-xxl">
+     <div class="col-xxl">
     <div class="card mb-4">
       <div class="card-header d-flex align-items-center justify-content-between">
         <h5 class="mb-0">Add New Category</h5>
