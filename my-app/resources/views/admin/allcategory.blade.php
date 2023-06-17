@@ -12,7 +12,6 @@ allcategories-myecom
    <div class="alert alert-success">
     {{session()->get('message')}}
    </div>
-
     @endif
     <div class="table-responsive text-nowrap">
       <table class="table">
