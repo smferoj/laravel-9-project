@@ -35,10 +35,17 @@ Route::controller(CategoryController::class)->group(function(){
     Route::get('admin/delete-category/{id}', 'DeleteCategory')->name('deletecategory');
 });
 
+
 Route::controller(SubCategoryController::class)->group(function(){
     Route::get('admin/all-subcategories', 'Index')->name('allsubcategories');
     Route::get('admin/add-subcategory', 'AddSubCategory')->name('addsubcategory');
+    Route::post('admin/store-subcategory', 'StoreSubCategory')->name('storesubcategory');
+    Route::get('admin/edit-subcategory/{id}', 'EditSubCat')->name('editsubcat');
+    Route::post('/admin/update-subcategory', 'UpdateSubCat')->name('updatesubcat');
+    Route::get('admin/delete-subcategory/{id}', 'DeleteSubCat')->name('deletesubcat');
 });
+
+
 Route::controller(ProductController::class)->group(function(){
     Route::get('admin/all-products', 'Index')->name('allproducts');
     Route::get('admin/add-product', 'AddProduct')->name('addproduct');
