@@ -28,7 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-       
+
     <!-- Icons. Uncomment required icon fonts -->
     <link rel="stylesheet" href=" {{asset('dashboard/assets/vendor/fonts/boxicons.css')}}" />
 
@@ -55,11 +55,10 @@
     <div class="layout-wrapper layout-content-navbar">
       <div class="layout-container">
         <!-- Menu -->
-
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
             <a href="index.html" class="app-brand-link">
-              
+
               <span class="app-brand-text demo menu-text fw-bolder ms-2"> Myecom</span>
             </a>
 
@@ -82,7 +81,7 @@
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Category</span>
             </li>
-          
+
             <li class="menu-item ">
               <a href="{{route('addcategory')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
@@ -95,11 +94,11 @@
                 <div data-i18n="Analytics">All Category</div>
               </a>
             </li>
-            
+
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Sub Category</span>
             </li>
-          
+
             <li class="menu-item ">
               <a href="{{route('addsubcategory')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
@@ -112,11 +111,11 @@
                 <div data-i18n="Analytics">All Sub Category</div>
               </a>
             </li>
-            
+
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Product</span>
             </li>
-          
+
             <li class="menu-item ">
               <a href="{{route('addproduct')}}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
@@ -132,7 +131,7 @@
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Orders</span>
             </li>
-          
+
             {{-- <li class="menu-item ">
               <a href="index.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
@@ -151,8 +150,8 @@
                 <div data-i18n="Analytics">Cancelled Orders</div>
               </a>
             </li> --}}
-            
-    
+
+
           </ul>
         </aside>
         <!-- / Menu -->
@@ -203,7 +202,7 @@
                 <!-- User -->
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                   
+
                     <div class="avatar avatar-online">
                       <img src="{{ asset('dashboard/assets/img/avatars/1.png') }}" alt="" class="w-px-40 h-auto rounded-circle">
                     </div>
